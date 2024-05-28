@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Síkmértan</title>
+	<link rel="icon" type="image/jpg" href="ICON.jpg">
+    <link rel="stylesheet" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<style>
+nav ul li:nth-child(3) a{
+     color: white;
+    background: #00CED1;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+</style>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-drafting-compass"></i> Síkmértani Alapfogalmak</h1>
+        </div>
+    </header>
+    <nav class="fejlec">
+        <ul>
+            <li><a href="file:///Z:/kozos_projekt/kinezet.html">Főmenü</a></li>
+            <li><a href="Lecke_Oldal.html#Alapok">Alapok</a></li>
+            <li><a href="Lecke_Oldal.html#Háromszögek">Háromszögek</a></li>
+            <li><a href="Lecke_Oldal.html#Négyszögek">Négyszögek</a></li>
+            <li><a href="Lecke_Oldal.html#Sokszögek">Magasabb rendű sokszögek</a></li>
+            <li><a href="Lecke_Oldal.html#Kör">Kör</a></li>
+
+        </ul>
+    </nav>
+    <main class="container" >
+        <section id="Háromszögek" style="background-color:#DCDCDC">
+            <h2>Háromszögek</h2>
+         
+<section >
+
+<h1>Általános Háromszög és Tulajdonságai</h1>
+
+<p>Az <strong>általános háromszög</strong> olyan sokszög, amelynek három oldala és három csúcsa van. Az általános háromszög minden oldala és minden belső szöge különböző lehet.</p>
+</section>
+<img src="kepek/altalanos.png" style="float:right;width:420px;height:280px;">
+
+<section>
+<h2>Alapvető Tulajdonságok</h2>
+<ul>
+  <li>A háromszög belső szögeinek összege mindig <span class="formula">180°</span>.</li>
+  <li>Egy háromszög bármely oldala rövidebb, mint a másik két oldal összege.</li>
+  <li>A háromszög külső szögeinek összege <span class="formula">360°</span>.</li>
+  <li>A háromszög hosszabb oldalával szemben nagyobb szög van.</li>
+</ul>
+
+<p>Ezeket a tulajdonságokat már Euklidesz is leírta az "Elemek" című művében Kr. e. 300 körül.</p>
+
+</section>
+<section>
+<h2>További Jellemzők</h2>
+<ul>
+  <li>A háromszög oldalfelező pontjai és a háromszög magasságainak talppontjai mind egy körön fekszenek, amit Feuerbach-körnek vagy a „kilenc pont körének” neveznek.</li>
+  <li>Két háromszög akkor és csak akkor hasonló, ha létezik olyan megfeleltetés, ahol a szögeik megegyeznek, és megfelelő oldalaik aránya is megegyezik.</li>
+</ul>
+</section>
+<section style="background-color:#E8E8E8">
+<h2>Különleges Háromszögek és Szabályaik</h2>
+
+<p><font size=4>A <strong>különleges háromszögek</strong> olyan háromszögek, amelyek bizonyos szimmetriák vagy arányok miatt kiemelkednek. Ezek a háromszögek különféle tulajdonságokkal és szabályokkal rendelkeznek, amelyek megkülönböztetik őket az általános háromszögektől.
+</font></p>
+<img src="kepek/egyenlooldal.png" style="float:right;width:400px;height:190px;"><section>
+<h2>Egyenlő Oldalú Háromszög (Szabályos Háromszög)</h2>
+<p>Mindhárom oldala és szöge egyenlő. A belső szögek nagysága <strong>60°</strong>.<br> Ha az oldalak hossza \( a \), akkor a területe \( T = \frac{\sqrt{3}}{4}a^2 \) és a magassága \( h = \frac{\sqrt{3}}{2}a \).</p>
+
+</section>
+<img src="kepek/egyenloszar.png" style="float:right;width:420px;height:190px;">
+<section>
+<h2>Egyenlő Szárú Háromszög</h2>
+<p>Legalább két oldala azonos hosszúságú, és a két egyenlő oldallal szemben lévő szögek is egyenlőek.</p>
+
+</section><img src="kepek/derekszog.png" style="float:right;width:400px;height:210px;"> <section>
+<h2>Derékszögű Háromszög</h2>
+<p>Egyik belső szöge <strong>90°</strong> (derékszög). A derékszöggel szemközti oldalt átfogónak, a derékszöget közrefogó oldalakat befogóknak nevezzük. A derékszögű háromszög területe \( T = \frac{a \cdot b}{2} \), ahol \( a \) és \( b \) a befogók hossza.</p>
+
+</section>
+<section>
+<h3>45°-45°-90° Háromszög</h3>
+<p>Mindkét befogója egyenlő hosszúságú, és a befogók hosszának aránya az átfogóhoz \( 1:1:\sqrt{2} \).</p>
+</section>
+<section>
+<h3>30°-60°-90° Háromszög</h3>
+<p>A rövidebb befogó, a hosszabb befogó és az átfogó hosszának aránya \( 1:\sqrt{3}:2 \).</p>
+</section><img src="kepek/hegyes.png" style="float:right;width:300px;height:160px;">
+<section>
+<h2>Hegyesszögű Háromszög</h2>
+<p>Mindhárom belső szöge kisebb, mint <strong>90°</strong>.</p>
+
+</section><img src="kepek/tompa.png" style="float:right;width:280px;height:160px;">
+<section>
+<h2>Tompaszögű Háromszög</h2>
+<p>Van egy belső szöge, ami nagyobb, mint <strong>90°</strong>.</p></section>
+<section>
+<p><font size=4>A háromszögek tulajdonságai közé tartozik a <strong>szögfelező tétel</strong>, amely szerint egy adott csúcshoz tartozó szögfelező az oldalakat olyan arányban osztja ketté, amely megegyezik a szögfelezővel szemközti oldalak hosszának arányával.
+</font></p>
+
+</section>
+</main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Síkmértan</p>
+        </div>
+    </footer>
+</body>
+</html>
