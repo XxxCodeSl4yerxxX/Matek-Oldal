@@ -5,6 +5,7 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    font-weight: 800;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-header .container h1 {
+header .container h1, h2 {
     margin: 0;
     font-size: 2.5rem;
 }
@@ -51,14 +52,6 @@ nav ul li a:hover {
 }
 
 .container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 0;
-	
-}
-
-.containerquiz {
     display: flex;
     justify-content: center;
     width: 80%;
@@ -67,10 +60,9 @@ nav ul li a:hover {
     padding: 2rem 0;
 }
 
-.containerquiz ul {
+.container ul {
     list-style: none;
 }
-
 
 section {
     background: white;
@@ -96,20 +88,12 @@ footer {
     box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
 }
 
-nav.fejlec {
-  position: sticky;
-  top: 0;
-  background-color: #34495e;
-}
-
 a.menulink:link {
-  text-decoration: none; 
-  color: black;
+  text-decoration: none;
 }
 
 a.menulink:visited {
   text-decoration: none;
-  color: black;
 }
 
 a.menulink:hover {
@@ -123,12 +107,12 @@ a.menulink:active {
 }
 
 .container-menu {
-    width: 100%;
+    width: 10%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem 0;
-}
-button {
+}button {
+    background: lightgray;
     width: 15vw;
     height: 10vw;
     margin: 1% 1%;
@@ -136,16 +120,21 @@ button {
     font-weight: 700;
     font-size: large;
 }
-button:hover {
-    background: #727272;
+.container .gomb:hover {
+    background: lightgrey;
+    transition: 0.5s;
+    border-radius: 5%;
 }
-
+.container button {
+    border-radius: 5%;
+    margin: 10px;
+    padding: 10px;
+}
 #correctAnswer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-	background-color: yellow;
 }
 #foAblak {
     display: flex;
@@ -155,7 +144,7 @@ button:hover {
     height: fit-content;
 }
 #szoveg {
-    margin-top: 0;
+    margin: 1%;
 }
 .foAblak h2 {
     font-size: x-large;
@@ -168,6 +157,11 @@ button:hover {
     margin: 0;
     padding: 0;
 }
-ul {
-    padding: 0.2%;
+#gombLista1, #gombLista2 {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+
 }
