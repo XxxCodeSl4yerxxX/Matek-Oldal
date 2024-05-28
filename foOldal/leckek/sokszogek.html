@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Síkmértan</title>
+	<link rel="icon" type="image/jpg" href="ICON.jpg">
+    <link rel="stylesheet" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<style>
+ nav ul li:nth-child(5) a{
+     color: white;
+    background: #00CED1;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+</style>
+
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-drafting-compass"></i> Síkmértani Alapfogalmak</h1>
+        </div>
+    </header>
+    <nav class="fejlec">
+        <ul>
+            <li><a href="file:///Z:/kozos_projekt/kinezet.html">Főmenü</a></li>
+            <li><a href="Lecke_Oldal.html#Alapok">Alapok</a></li>
+            <li><a href="Lecke_Oldal.html#Háromszögek">Háromszögek</a></li>
+            <li><a href="Lecke_Oldal.html#Négyszögek">Négyszögek</a></li>
+            <li><a href="Lecke_Oldal.html#Sokszög">Magasabb rendű sokszögek</a></li>
+            <li><a href="Lecke_Oldal.html#Kör">Kör</a></li>
+
+        </ul>
+    </nav>
+    <main class="container" >
+        <section id="Sokszogek" style="background-color:#DCDCDC">
+            <h2>Magasabb rendű sokszögek</h2>
+          <section style="background-color:#E8E8E8">
+<h1>Sokszögek és Belső Szögeik</h1>
+<section>
+    <p>A <strong>sokszögek</strong> olyan alakzatok, amelyeknek a csúcsai között egyenes szakaszok, azaz <strong>oldalak</strong> húzódnak. A sokszögek elnevezése a csúcsok számától függ:</p>
+    <ul>
+        <li><strong>Háromszög</strong>: 3 csúcs, 3 oldal.</li>
+        <li><strong>Négyszög</strong>: 4 csúcs, 4 oldal.</li>
+        <li><strong>Ötszög</strong>: 5 csúcs, 5 oldal.</li>
+        <li><strong>Hatszög</strong>: 6 csúcs, 6 oldal.</li>
+    </ul>
+	</section>
+	<section>
+    <p>A <strong>konvex sokszögek</strong> olyan sokszögek, amelyek minden oldala egyenes szakasz, és a csúcsok között nincs "bevágás". A <strong>konkáv sokszögek</strong> pedig olyanok, amelyeknek legalább egy oldala hajlított, és a csúcsok között bevágás található.</p>
+    </section>
+	<img src="kepek/otszog.png" style="float:right;width:420px;height:340px;">
+    <section>
+        <h2>Ötszög</h2>
+        <p>Az ötszög egy ötoldalú sokszög.</p>
+        <p>A szabályos ötszög minden oldala egyforma hosszú, és minden szöge 108°.</p>
+        <p>A belső szögek összege minden ötszögben mindig 540°, függetlenül az egyes szögek méretétől.</p>
+        <p>A pentagramma (ötszög csillag) az ötszög átlóiból szerkeszthető, és az ötágú csillag belső csúcspontjait összekötve egy kisebb szabályos ötszöget kapunk.</p>
+    </section>
+	<img src="kepek/hatszog.png" style="float:right;width:420px;height:370px;">
+    <section>
+        <h2>Hatszög</h2>
+        <p>A hatszög hat oldalú sokszög.</p>
+        <p>Minden hatszögben a szögek összege mindig 720°.</p>
+        <p>A szabályos hatszög minden oldala egyforma hosszú, és minden szöge 120°.</p>
+        <p>A hatszögek területe a következőképpen számolható: $$Terület =(3/2) \cdot  Oldalhossz^2 \cdot  √3$$.</p>
+    </section>
+	<section>
+	<h2>Belső Szögek</h2>
+    <p>A konvex sokszögek belső szögeinek összege mindig <strong>360°</strong>. Például:</p>
+    <ul>
+        <li>Ötszög: $$3 \cdot 180° = 540°$$</li>
+        <li>Hatszög: $$4 \cdot 180° = 720°$$</li>
+        <li>Hétszög: $$5 \cdot 180° = 900°$$</li>
+    </ul>
+    <p>A belső szögek összegét úgy számítjuk ki, hogy minden csúcsból induló átlóval hány háromszögre vágjuk a sokszöget. Egy $$n$$ oldalú sokszögben egy csúcsból $$n - 3$$ átló húzható. Tehát a belső szögek összege: $$(n - 2) \cdot 180°$$.</p>
+    </section>
+	<section>
+	<h2>Külső Szögek</h2>
+    <p>A konvex sokszögek külső szögeinek összege mindig <strong>360°</strong>. A külső szögek összege a mellette fekvő belső szöggel együtt mindig $$180°$$.</p>
+</section>
+</main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Síkmértan</p>
+        </div>
+    </footer>
+</body>
+</html>
