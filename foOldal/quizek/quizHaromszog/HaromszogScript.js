@@ -7,7 +7,7 @@ const valaszC = document.getElementById('answerC');
 const valaszD = document.getElementById('answerD');
 const szoveg = document.getElementById('szoveg');
 const javitas = document.getElementById('javitas');
-const magyarazatLink = document.getElementById('magyarazatLink');
+// const magyarazatLink = document.getElementById('magyarazatLink');
 const osszesGomb = document.querySelectorAll('.button');
 const gombLista1 = document.getElementById('gombLista1');
 const gombLista2 = document.getElementById('gombLista2');
@@ -56,7 +56,7 @@ const helyesValaszTema = [
     ['tema 9'],
 ]
 //ide a tema dokumentaciojanak linkjet
-const helyesValaszLink = [
+/* const helyesValaszLink = [
     ['foOldal/leckek/haromszogek.html'],
     ['foOldal/leckek/haromszogek.html'],
     ['foOldal/leckek/haromszogek.html'],
@@ -67,7 +67,7 @@ const helyesValaszLink = [
     ['foOldal/leckek/haromszogek.html'],
     ['foOldal/leckek/haromszogek.html'],
     ['foOldal/leckek/haromszogek.html'],
-]
+] */
 const kerdesMatrix = [
     ['Mekkora a háromszög belső szögeinek összege fokban kifejezve?'],
     ['Mikor lehetne az a<=b<=c számok egy háromszög oldalai?'],
@@ -135,7 +135,7 @@ function checkAnswer() {
             correctAnswer.style.visibility = 'visible';
             kovKerdesGomb.style.visibility = 'visible';
             javitas.textContent = 'A helyes valasz: ' + helyesValaszokSzoveg[kerdesSzam];
-            magyarazatLink.href = helyesValaszLink[kerdesSzam];
+            // magyarazatLink.href = helyesValaszLink[kerdesSzam];
             if (valasz === 'a'){
                 valaszA.style.background = 'grey';
             } else if (valasz === 'b') {
@@ -277,7 +277,7 @@ function quizVege() {
 
     szoveg.style.visibility = 'visible';
     szoveg.style.fontSize = 'xx-large';
-    szoveg.textContent = "Elért pontszám: " + pontszam;
+    szoveg.textContent = "Elért pontszám: " + pontszam + "/" + kerdesSzam;
 
     kovKerdesGomb.textContent = 'Quiz ujrakezdese';
     kovKerdesGomb.style.visibility = 'visible';

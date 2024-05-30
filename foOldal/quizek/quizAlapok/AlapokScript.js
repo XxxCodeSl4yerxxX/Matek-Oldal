@@ -272,7 +272,7 @@ function quizVege() {
 
     szoveg.style.visibility = 'visible';
     szoveg.style.fontSize = 'xx-large';
-    szoveg.textContent = "Elért pontszám: " + pontszam;
+    szoveg.textContent = "Elért pontszám: " + pontszam + "/" + kerdesSzam;
 
     kovKerdesGomb.textContent = 'Quiz ujrakezdese';
     kovKerdesGomb.style.visibility = 'visible';
