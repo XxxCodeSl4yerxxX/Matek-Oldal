@@ -58,16 +58,16 @@ const helyesValaszTema = [
 ]
 //ide a tema dokumentaciojanak linkjet
 const helyesValaszLink = [
-    ['Leckek/alapok.html'],
-    ['Leckek/alapok.html'],
-    ['Leckek/alapok.html'],
-    ['Leckek/alapok.html'],
-    ['Leckek/alapok.html'],
-    ['Leckek/alapok.html'],
-    ['Leckek/alapok.html'],
-    ['Leckek/alapok.html'],
-    ['Leckek/alapok.html'],
-    ['Leckek/alapok.html'],
+    ['foOldal/leckek/alapok.html'],
+    ['foOldal/leckek/alapok.html'],
+    ['foOldal/leckek/alapok.html'],
+    ['foOldal/leckek/alapok.html'],
+    ['foOldal/leckek/alapok.html'],
+    ['foOldal/leckek/alapok.html'],
+    ['foOldal/leckek/alapok.html'],
+    ['foOldal/leckek/alapok.html'],
+    ['foOldal/leckek/alapok.html'],
+    ['foOldal/leckek/alapok.html'],
 ]
 const kerdesMatrix = [
     ['Két szakasz közrezárt szögeiből mindig melyiket vesszük figyelembe?'],
