@@ -1,0 +1,167 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: 800;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header .container h1, h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    background: #34495e;
+    padding: 0.5rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #1abc9c;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.container ul {
+    list-style: none;
+}
+
+section {
+    background: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+}
+
+a.menulink:link {
+  text-decoration: none;
+}
+
+a.menulink:visited {
+  text-decoration: none;
+}
+
+a.menulink:hover {
+  text-decoration: none;
+  font-size: 150%;
+  transition: 0.5s;
+}
+
+a.menulink:active {
+  text-decoration: none;
+}
+
+.container-menu {
+    width: 10%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}button {
+    background: lightgray;
+    width: 15vw;
+    height: 10vw;
+    margin: 1% 1%;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: large;
+}
+.container .gomb:hover {
+    background: lightgrey;
+    transition: 0.5s;
+    border-radius: 5%;
+}
+.container button {
+    border-radius: 5%;
+    margin: 10px;
+    padding: 10px;
+}
+#correctAnswer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#foAblak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+}
+#szoveg {
+    margin: 1%;
+}
+.foAblak h2 {
+    font-size: x-large;
+    margin-top: 0;
+}
+#correctAnswer p {
+    margin: 0;
+}
+#foAblak .container {
+    margin: 0;
+    padding: 0;
+}
+#gombLista1, #gombLista2 {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+
+}
