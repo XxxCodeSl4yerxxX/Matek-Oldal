@@ -116,7 +116,7 @@ section img {
     }
 
     nav ul li {
-        display: block; /* Vízszintes elrendezés a kis képerny?n */
+        display: block;
     }}
 
 footer {
