@@ -72,10 +72,10 @@ const helyesValaszTema = [
 const kerdesMatrix = [
     ['Két szakasz közrezárt szögeiből mindig melyiket vesszük figyelembe?'],
     ['Mekkora a pont kiterjedése?'],
-    ['Mekkora egy derékszög mértéke fokben kifejezve?'],
+    ['Mekkora egy derékszög mértéke fokban kifejezve?'],
     ['Mekkora egy hegyesszög mértéke fokban kifejezve?'],
     ['Három pont mindig ugyanabban a síkban helyezkedik el?'],
-    ['Melyik kijelentés igaz a szkaszra?'],
+    ['Melyik kijelentés igaz a szakaszra?'],
     ['Mi NEM határoz meg egy szöget?'],
     ['Milyen szög a 180 fok?'],
     ['Ha a két egyenes által közrezárt kisebbik szög mértéke 112 fok mekkora a nagyobbiké?'],
