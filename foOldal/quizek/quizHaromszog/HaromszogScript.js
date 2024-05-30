@@ -70,7 +70,7 @@ const helyesValaszTema = [
 ] */
 const kerdesMatrix = [
     ['Mekkora a háromszög belső szögeinek összege fokban kifejezve?'],
-    ['Mikor lehetne az a<=b<=c számok egy háromszög oldalai?'],
+    ['Mikor lehetnének az a<=b<=c számok egy háromszög oldalai?'],
     ['Mekkora egy derékszög mértéke fokben kifejezve?'],
     ['Mikor NEM hasonló két háromszög?'],
     ['A háromszög melyik szögével van szemben a leghosszabb oldal?'],
