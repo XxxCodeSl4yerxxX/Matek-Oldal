@@ -57,16 +57,16 @@ const helyesValaszTema = [
 ]
 //ide a tema dokumentaciojanak linkjet
 const helyesValaszLink = [
-    ['./haromszogek.html'],
-    ['./haromszogek.html'],
-    ['./haromszogek.html'],
-    ['./haromszogek.html'],
-    ['./haromszogek.html'],
-    ['./haromszogek.html'],
-    ['./haromszogek.html'],
-    ['./haromszogek.html'],
-    ['./haromszogek.html'],
-    ['./haromszogek.html'],
+    ['foOldal/leckek/haromszogek.html'],
+    ['foOldal/leckek/haromszogek.html'],
+    ['foOldal/leckek/haromszogek.html'],
+    ['foOldal/leckek/haromszogek.html'],
+    ['foOldal/leckek/haromszogek.html'],
+    ['foOldal/leckek/haromszogek.html'],
+    ['foOldal/leckek/haromszogek.html'],
+    ['foOldal/leckek/haromszogek.html'],
+    ['foOldal/leckek/haromszogek.html'],
+    ['foOldal/leckek/haromszogek.html'],
 ]
 const kerdesMatrix = [
     ['Mekkora a háromszög belső szögeinek összege fokban kifejezve?'],
