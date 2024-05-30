@@ -7,7 +7,7 @@ const valaszC = document.getElementById('answerC');
 const valaszD = document.getElementById('answerD');
 const szoveg = document.getElementById('szoveg');
 const javitas = document.getElementById('javitas');
-const magyarazatLink = document.getElementById('magyarazatLink');
+//const magyarazatLink = document.getElementById('magyarazatLink');
 const osszesGomb = document.querySelectorAll('.button');
 const gombLista1 = document.getElementById('gombLista1');
 const gombLista2 = document.getElementById('gombLista2');
@@ -57,7 +57,7 @@ const helyesValaszTema = [
     ['tema 9'],
 ]
 //ide a tema dokumentaciojanak linkjet
-const helyesValaszLink = [
+/* const helyesValaszLink = [
     ['foOldal/leckek/alapok.html'],
     ['foOldal/leckek/alapok.html'],
     ['foOldal/leckek/alapok.html'],
@@ -68,7 +68,7 @@ const helyesValaszLink = [
     ['foOldal/leckek/alapok.html'],
     ['foOldal/leckek/alapok.html'],
     ['foOldal/leckek/alapok.html'],
-]
+] */
 const kerdesMatrix = [
     ['Két szakasz közrezárt szögeiből mindig melyiket vesszük figyelembe?'],
     ['Mekkora a pont kiterjedése?'],
@@ -130,7 +130,7 @@ function checkAnswer() {
             correctAnswer.style.visibility = 'visible';
             kovKerdesGomb.style.visibility = 'visible';
             javitas.textContent = 'A helyes valasz: ' + helyesValaszokSzoveg[kerdesSzam];
-            magyarazatLink.href = helyesValaszLink[kerdesSzam];
+            //magyarazatLink.href = helyesValaszLink[kerdesSzam];
             if (valasz === 'a'){
                 valaszA.style.background = 'grey';
             } else if (valasz === 'b') {
