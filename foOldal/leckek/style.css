@@ -55,7 +55,22 @@ nav ul li a:hover {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem 0;
+	
 }
+
+.containerquiz {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.containerquiz ul {
+    list-style: none;
+}
+
 
 section {
     background: white;
@@ -80,51 +95,79 @@ footer {
     width: 100%;
     box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
 }
-img {border-radius: 20px;}
-  nav ul li:nth-child(1) a{
-     color: white;
-    background: #00CED1;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: background 0.3s ease;
-  }
 
-section img {
-    max-width: 100%; 
-    height: auto;
-    border-radius: 8px;}
-@media (max-width: 1200px) {
-    .container {
-        padding: 0 20px;
-    }
+nav.fejlec {
+  position: sticky;
+  top: 0;
+  background-color: #34495e;
+}
 
-    section img, section div {
-        width: 100%; 
-        margin-top: 10px;
-    }
+a.menulink:link {
+  text-decoration: none; 
+  color: black;
+}
 
-    section {
-        flex-direction: column;
-        text-align: center;
-    }
+a.menulink:visited {
+  text-decoration: none;
+  color: black;
+}
 
-    nav ul {
-        display: flex;
-        justify-content: center;
-        flex-direction: column; 
-    }
+a.menulink:hover {
+  text-decoration: none;
+  font-size: 150%;
+  transition: 0.5s;
+}
 
-    nav ul li {
-        display: block;
-    }}
+a.menulink:active {
+  text-decoration: none;
+}
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
+.container-menu {
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+button {
+    width: 15vw;
+    height: 10vw;
+    margin: 1% 1%;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: large;
+}
+button:hover {
+    background: #727272;
+}
+
+#correctAnswer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	background-color: yellow;
+}
+#foAblak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+}
+#szoveg {
+    margin-top: 0;
+}
+.foAblak h2 {
+    font-size: x-large;
+    margin-top: 0;
+}
+#correctAnswer p {
+    margin: 0;
+}
+#foAblak .container {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    padding: 0.2%;
 }
