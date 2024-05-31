@@ -9,5 +9,4 @@ https://xxxcodesl4yerxxx.github.io/Matek-Oldal/
         >quizek
             >kitoltott kvizek
     !legyen az egesz bar link
-    !redirect nem bezar
-    !helyesiras
+    Helyes pontszám érték kiírása
