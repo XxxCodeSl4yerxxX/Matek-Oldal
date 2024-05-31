@@ -36,7 +36,7 @@ const helyesValaszokSzoveg = [
     ['Párhuzamosak és kongruensek'],
     ['Mindhárom'],
     ['Szögei derékszögek'],
-    ['Négyzet'],
+    ['Trapéz'],
     ['2'],
     ['180'],
 
