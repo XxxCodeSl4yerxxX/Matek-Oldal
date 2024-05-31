@@ -9,11 +9,35 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
     background: #2c3e50;
     color: white;
     padding: 1.5rem 0;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+header a {
+    margin-left: 1rem;
+}
+
+header .fejlec {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header .fejlec h1, header .fejlec h3 {
+    margin: 0;
+}
+
+header .nemLathato {
+    background: none;
+    margin: 0;
+    border: 0;
+    color: transparent;
+    box-shadow: none;
 }
 
 header .container h1, h2 {
