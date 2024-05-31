@@ -56,7 +56,7 @@ const kerdesMatrix = [
     ['Hány átlója van egy n oldalú konvex sokszögnek?'],
     ['Mit nevezünk konkáv sökszögnek?'],
     ['Mit nevezünk konvex sokszögnek?'],
-    ['Mekkora azú szabályos ötszög szögeinek mértéke?'],
+    ['Mekkora a szabályos ötszög szögeinek mértéke?'],
      ];
  
 const maxKerdes = 5;
