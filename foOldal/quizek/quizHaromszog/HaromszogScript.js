@@ -18,7 +18,6 @@ const valaszMatrix = [
     ['c<a+b', 'a+b<c', 'a=b=c', 'a+c<b'],
     ['Két szöge egyenlő', 'Oldalaik aránya egyenlő', 'Szögeik egyenlőek és  megfelelő oldalak aránya egyenlő', 'Két oldalpár aránya egyenlő'],
     ['A legkissebb', 'A legnagyobb', 'A középső', 'Nem lehet megmondani'],
-    ['Igaz', 'Hamis', 'Nem tudom', 'Nem lehet megmondani'],
     ['60', 'Változó', '30, 60, 90', '40, 40, 100'],
     ['Hegyes', 'Tompa', 'Nyúlt', 'Derék'],
     ['Igaz', 'Hamis', 'Általában igaz', 'Nem tudom'],
@@ -73,7 +72,6 @@ const kerdesMatrix = [
     ['Mikor lehetnének az a<=b<=c számok egy háromszög oldalai?'],
     ['Mekkora egy derékszög mértéke fokben kifejezve?'],
     ['Mikor NEM hasonló két háromszög?'],
-    ['A háromszög melyik szögével van szemben a leghosszabb oldal?'],
     ['Mekkorák az egyenlő oldalú háromszög szögei?'],
     ['Milyen szöget tartalmaz a derékszögű  háromszög?'],
     ['Az egyenlő szárú háromszög alapon fekvő szögei egyenelőek?'],
@@ -82,10 +80,7 @@ const kerdesMatrix = [
     ['Hány nevezetes pont van a Feuerbach-körön?'],
 ];
 
-
-
-
-const maxKerdes = 10;
+const osszKerdes = 10;
 
 let answered = false;
 let kerdesSzam;
@@ -195,7 +190,7 @@ function dontesD() {
 }
 
 function randomSzam() {
-    kerdesSzam = Math.floor(Math.random() * 10);
+    kerdesSzam = Math.floor(Math.random() * osszKerdes);
 }
 
 function quizKezd() {
@@ -206,12 +201,12 @@ function quizKezd() {
 
     hibaAblak.innerHTML = '';
 
-    while (frekv[kerdesSzam] != 0 && kerdesMertek != maxKerdes) {
+    while (frekv[kerdesSzam] != 0 && kerdesMertek != osszKerdes) {
         randomSzam();
     }
     console.log(kerdesSzam + ' ' + kerdesMertek);
     szoveg.style.fontSize = 'x-large';
-    if (kerdesMertek<=9) {
+    if (kerdesMertek<= osszKerdes - 1) {
         valaszA.removeEventListener('click', dontesA);
         valaszB.removeEventListener('click', dontesB);
         valaszC.removeEventListener('click', dontesC);
@@ -277,7 +272,7 @@ function quizVege() {
 
     szoveg.style.visibility = 'visible';
     szoveg.style.fontSize = 'xx-large';
-    szoveg.textContent = "Elért pontszám: " + pontszam + "/" + kerdesSzam;
+    szoveg.textContent = "Elért pontszám: " + pontszam + "/" + osszKerdes;
 
     kovKerdesGomb.textContent = 'Quiz ujrakezdese';
     kovKerdesGomb.style.visibility = 'visible';

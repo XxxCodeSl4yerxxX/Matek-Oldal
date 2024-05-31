@@ -52,14 +52,14 @@ const helyesValaszTema = [
     ['./sokszogek.html'],
   ] */
 const kerdesMatrix = [
-     ['Mekkora az n oldalú sokszög belső szögeinek összege fokban kifejezve?'],
+    ['Mekkora az n oldalú sokszög belső szögeinek összege fokban kifejezve?'],
     ['Hány átlója van egy n oldalú konvex sokszögnek?'],
     ['Mit nevezünk konkáv sökszögnek?'],
     ['Mit nevezünk konvex sokszögnek?'],
     ['Mekkora a szabályos ötszög szögeinek mértéke?'],
      ];
  
-const maxKerdes = 5;
+const osszKerdes = 5;
 
 let answered = false;
 let kerdesSzam;
@@ -180,12 +180,12 @@ function quizKezd() {
 
     hibaAblak.innerHTML = '';
 
-    while (frekv[kerdesSzam] != 0 && kerdesMertek != maxKerdes) {
+    while (frekv[kerdesSzam] != 0 && kerdesMertek != osszKerdes) {
         randomSzam();
     }
     console.log(kerdesSzam + ' ' + kerdesMertek);
     szoveg.style.fontSize = 'x-large';
-    if (kerdesMertek<= maxKerdes - 1) {
+    if (kerdesMertek<= osszKerdes - 1) {
         valaszA.removeEventListener('click', dontesA);
         valaszB.removeEventListener('click', dontesB);
         valaszC.removeEventListener('click', dontesC);
@@ -251,7 +251,7 @@ function quizVege() {
 
     szoveg.style.visibility = 'visible';
     szoveg.style.fontSize = 'xx-large';
-    szoveg.textContent = "Elért pontszám: " + pontszam + '/' + maxKerdes;
+    szoveg.textContent = "Elért pontszám: " + pontszam + '/' + osszKerdes;
 
     kovKerdesGomb.textContent = 'Quiz ujrakezdese';
     kovKerdesGomb.style.visibility = 'visible';

@@ -80,10 +80,7 @@ const kerdesMatrix = [
     ['Mekkora egy körív mértéke?'],
 ];
 
-
-
-
-const maxKerdes = 10;
+const osszKerdes = 10;
 
 let answered = false;
 let kerdesSzam;
@@ -193,7 +190,7 @@ function dontesD() {
 }
 
 function randomSzam() {
-    kerdesSzam = Math.floor(Math.random() * 10);
+    kerdesSzam = Math.floor(Math.random() * osszKerdes);
 }
 
 function quizKezd() {
@@ -204,12 +201,12 @@ function quizKezd() {
 
     hibaAblak.innerHTML = '';
 
-    while (frekv[kerdesSzam] != 0 && kerdesMertek != maxKerdes) {
+    while (frekv[kerdesSzam] != 0 && kerdesMertek != osszKerdes) {
         randomSzam();
     }
     console.log(kerdesSzam + ' ' + kerdesMertek);
     szoveg.style.fontSize = 'x-large';
-    if (kerdesMertek<=9) {
+    if (kerdesMertek<= osszKerdes - 1) {
         valaszA.removeEventListener('click', dontesA);
         valaszB.removeEventListener('click', dontesB);
         valaszC.removeEventListener('click', dontesC);
@@ -275,7 +272,7 @@ function quizVege() {
 
     szoveg.style.visibility = 'visible';
     szoveg.style.fontSize = 'xx-large';
-    szoveg.textContent = "Elért pontszám: " + pontszam + "/" + kerdesSzam;
+    szoveg.textContent = "Elért pontszám: " + pontszam + "/" + osszKerdes;
 
     kovKerdesGomb.textContent = 'Quiz ujrakezdese';
     kovKerdesGomb.style.visibility = 'visible';
