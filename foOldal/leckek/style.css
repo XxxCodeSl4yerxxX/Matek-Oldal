@@ -171,3 +171,41 @@ button:hover {
 ul {
     padding: 0.2%;
 }
+section img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 8px;}
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    section img, section div {
+        width: 100%; 
+        margin-top: 10px;
+    }
+
+    section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+    }
+
+    nav ul li {
+        display: block; /* Vízszintes elrendezés a kis képerny?n */
+    }}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
