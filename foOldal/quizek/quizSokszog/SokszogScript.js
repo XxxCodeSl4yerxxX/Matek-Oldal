@@ -21,14 +21,14 @@ const valaszMatrix = [
     ['90', '60', '180', '150'],
         ];
 //ide deklarald a valaszokat
-const helyesValaszok = ['d', 'c', 'd', 'a', 'c'];
+const helyesValaszok = ['d', 'c', 'd', 'a', 'd'];
 //ide a helyes valaszok szovegreszet
 const helyesValaszokSzoveg = [
     ['(n-2)*180 '],
     ['n(n-3)/2'],
     ['Van benne nyúltszögnél nagyobb szög'],
     ['legnagyobb szöge tompaszög'],
-    ['180'],
+    ['150'],
 ]
 //ide a helyes valaszok/kerdes temajat
 const helyesValaszTema = [
