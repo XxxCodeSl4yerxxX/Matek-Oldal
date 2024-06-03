@@ -26,7 +26,7 @@ const valaszMatrix = [
     ['90', '180', '270', '360'],
     ];
 //ide deklarald a valaszokat
-const helyesValaszok = ['b', 'a', 'c', 'b', 'c', 'd', 'c', 'c', 'b', 'b'];
+const helyesValaszok = ['b', 'a', 'c', 'b', 'c', 'd', 'c', 'b', 'b', 'b'];
 //ide a helyes valaszok szovegreszet
 const helyesValaszokSzoveg = [
     ['360'],
