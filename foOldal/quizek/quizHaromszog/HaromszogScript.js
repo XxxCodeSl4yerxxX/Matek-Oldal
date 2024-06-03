@@ -16,7 +16,7 @@ const hibaAblak = document.getElementById('hibaKi');
 const valaszMatrix = [
     ['180', '360', '0', '90'],
     ['c<a+b', 'a+b<c', 'a=b=c', 'a+c<b'],
-    ['Két szöge egyenlő', 'Oldalaik aránya egyenlő', 'Szögeik egyenlőek és  megfelelő oldalak aránya egyenlő', 'Két oldalpár aránya egyenlő'],
+    ['Szögeik egyenlőek', 'Oldalaik aránya egyenlő', 'Szögeik egyenlőek és  megfelelő oldalak aránya egyenlő', 'Két oldalpár aránya egyenlő'],
     ['A legkissebb', 'A legnagyobb', 'A középső', 'Nem lehet megmondani'],
     ['60', 'Változó', '30, 60, 90', '40, 40, 100'],
     ['Hegyes', 'Tompa', 'Nyúlt', 'Derék'],
@@ -70,8 +70,8 @@ const helyesValaszTema = [
 const kerdesMatrix = [
     ['Mekkora a háromszög belső szögeinek összege fokban kifejezve?'],
     ['Mikor lehetnének az a<=b<=c számok egy háromszög oldalai?'],
-    ['Mekkora egy derékszög mértéke fokben kifejezve?'],
     ['Mikor NEM hasonló két háromszög?'],
+    ['A háromszög legnagyobb szögével szmeben melyik oldal helyezkedik el?'],
     ['Mekkorák az egyenlő oldalú háromszög szögei?'],
     ['Milyen szöget tartalmaz a derékszögű  háromszög?'],
     ['Az egyenlő szárú háromszög alapon fekvő szögei egyenelőek?'],
