@@ -67,6 +67,7 @@ const helyesValaszTema = [
     ['foOldal/leckek/haromszogek.html'],
     ['foOldal/leckek/haromszogek.html'],
 ] */
+//
 const kerdesMatrix = [
     ['Mekkora a háromszög belső szögeinek összege fokban kifejezve?'],
     ['Mikor lehetnének az a<=b<=c számok egy háromszög oldalai?'],
