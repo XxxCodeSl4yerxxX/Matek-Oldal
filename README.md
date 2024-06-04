@@ -8,5 +8,3 @@ https://xxxcodesl4yerxxx.github.io/Matek-Oldal/
         >quizAlapKod mappaban az ures kviz html, css, js
         >quizek
             >kitoltott kvizek
-    !legyen az egesz bar link
-    Helyes pontszám érték kiírása
