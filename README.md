@@ -1,10 +1,8 @@
-https://xxxcodesl4yerxxx.github.io/Matek-Oldal/
-
->index.html a fo oldal
+>index.html a fő oldal
     >kinezetsunyi.html a megnyitott linkes oldal
     >foOldal kollektiv mappa
-    >leckek mappaban a lecke oldalak html, css es kepek mappa
-        >kepek mappaban minden kep
-        >quizAlapKod mappaban az ures kviz html, css, js
+    >leckek mappában a lecke oldalak html, css és kepek mappa
+        >kepek mappában minden kép
+        >quizAlapKod mappában az üres kviz html, css, js
         >quizek
             >kitoltott kvizek
