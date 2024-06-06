@@ -1,4 +1,4 @@
->index.html a fő oldal
+index.html a fő oldal
 
     >kinezetsunyi.html a megnyitott linkes oldal
     >foOldal kollektiv mappa
