@@ -72,7 +72,7 @@ const kerdesMatrix = [
     ['Mekkora a háromszög belső szögeinek összege fokban kifejezve?'],
     ['Mikor lehetnének az a<=b<=c számok egy háromszög oldalai?'],
     ['Mikor NEM hasonló két háromszög?'],
-    ['A háromszög legnagyobb szögével szmeben melyik oldal helyezkedik el?'],
+    ['A háromszög legnagyobb szögével szemben melyik oldal helyezkedik el?'],
     ['Mekkorák az egyenlő oldalú háromszög szögei?'],
     ['Milyen szöget tartalmaz a derékszögű  háromszög?'],
     ['Az egyenlő szárú háromszög alapon fekvő szögei egyenelőek?'],
