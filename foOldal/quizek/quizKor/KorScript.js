@@ -22,7 +22,7 @@ const valaszMatrix = [
     ['Megeggyezik a szárai közé eső körív mértékével', 'Megeggyezik a szárai közé eső körív mértékének felével', 'Megeggyezik a szárai közé eső körív mértékének harmadával', 'Megeggyezik a szárai közé eső körív mértékének duplájával'],
     ['A kör középpontjában', 'A körön', 'A sugar középpontján', 'A körön kívül'],//a
     ['3 sugár', 'Egy csúcsszög', 'Két körön lévő pont', 'Két körön kívüli pont'],//c
-    ['Egyforma távolságra vannak egymástól', 'Kolineárisak', 'Változó távolságra vannak egymástól', 'Nincs köztük összefüggés'],//a
+    ['Egyforma távolságra vannak egymástól', 'Kollineárisak', 'Változó távolságra vannak egymástól', 'Nincs köztük összefüggés'],//a
     ['Megeggyezik a neki megfelelő középponti szög mértékével', 'Megeggyezik a neki megfelelő középponti szög mértékének felével', 'Megeggyezik a neki megfelelő középponti szög mértékének duplájával', 'Megeggyezik a neki megfelelő középponti szög mértékének harmadával'],
 ];
 
