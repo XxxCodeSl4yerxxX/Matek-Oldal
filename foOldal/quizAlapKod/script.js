@@ -69,7 +69,6 @@ const helyesValaszLink = [
     ['link 9'],
 ]
 const kerdesMatrix = [
-    ['Egy haromszog belso szogeinek osszege?'],
     ['kerdes1'],
     ['kerdes2'],
     ['kerdes3'],
