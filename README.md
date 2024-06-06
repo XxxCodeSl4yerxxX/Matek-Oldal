@@ -8,4 +8,4 @@ index.html a fő oldal
         >quizAlapKod mappában az üres kviz html, css, js
         >quizek
         
-            >kitoltott kvizek
+            >kitöltött quizek
