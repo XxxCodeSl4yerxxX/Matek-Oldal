@@ -98,9 +98,9 @@ function hibaKi() {
         let para = document.createElement("p");
 
         para.innerText = hibaMatrix[i];
-        para.style.zIndex = 9999; // Set a high z-index value
+        para.style.zIndex = 9999; 
         para.style.alignSelf = 'center';
-        hibaAblak.appendChild(para); // Append the element to the body or an appropriate container
+        hibaAblak.appendChild(para);
     }
 }
 
